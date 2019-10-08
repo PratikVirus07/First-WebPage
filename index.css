@@ -1,0 +1,180 @@
+:root{
+	font-size: 16px;
+}
+p{
+	font-weight:500;
+	color: #000000;
+	font-family: 'Source Code Pro', monospace;
+}
+body{
+	background-color: #ffffff;
+	color:#45454d;
+	margin:2vw;
+}
+.header{
+	position: sticky;
+	top:0px;
+	opacity: 1;
+   	z-index: 10;
+	background-color: #ffffff;
+
+}
+.heading{
+	text-align: center;
+	margin-top: 7vh;
+}
+.headingname{
+	margin:0px auto;
+	font-size: 3rem;
+	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+}
+.nav-bar{
+	position: sticky;
+	top:0px;
+}
+.nav-bar-elements{
+	list-style-type: none;
+	margin-top:7vh;
+	background-color: #ffffff;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.nav-bar-elements li a{
+	text-decoration: none;
+	padding: 10px;
+	display: flex;
+	font-size: 1.5rem;
+	color: #000;
+}
+.nav-bar-elements li a:hover{
+	display: block;
+	background-color: #618582;
+	color: #e6f8f9;
+}
+.active{
+	background-color: #618582;
+	color: #e6f8f9;
+}
+.content{
+	display: flex;
+}
+.profile-image{
+    margin-left: 12vw;
+    margin-right: 4vw;
+    margin-top: 4vh;
+}
+.profile-image img{
+	border:1px solid black;
+	border-radius: 50%;
+}
+
+.footer{
+	margin-top: 20vh;
+}
+
+.social-media{
+   list-style-type: none;
+}
+.social-media li{
+	display: inline-block;
+	padding: 10px;
+}
+.social-media li a img{
+	width: 3vw;
+	height: 3vw;
+}
+.copyright{
+	text-align: center;
+	margin:auto;
+}
+
+.container{
+	margin:7vh 22vw;
+}
+.companies{
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+}
+.companies li{
+	padding: 10px;
+}
+.dream-companies .companies li a img{
+	width:200px;
+	height: 150px;
+}
+.dream-text{
+	text-align: center;
+}
+.link-heading{
+	margin: 7vh auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 2.5rem;
+	background-color: #69adf5;
+	width:35vw;
+	border:1px solid black;
+
+}
+.links a{
+	text-decoration: none;
+	color:#ffffff;
+	border:0.5px solid black;
+	display: block;
+}
+.links a:hover{
+	background-color: #13665f;
+	color:#040b30;
+}
+
+
+
+@media screen and (max-width:600px){
+	.nav-bar-elements{
+	list-style-type: none;
+	margin-top:7vh;
+	background-color: #ffffff;
+	padding: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+ .content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.profile-image img{
+	border:1px solid black;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
